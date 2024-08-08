@@ -1,0 +1,112 @@
+.header {
+  background-color: #FFFFFF;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #D9D9D9;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: #FFFFFF;
+}
+
+.header__navbar {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__items--left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 21px;
+}
+
+.navbar__items--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 137px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 31px;
+}
+
+.navbar__logo {
+  width: 8.375rem;
+  cursor: pointer;
+  height: 20.5px;
+  background: no-repeat;
+  background-size: cover;
+  
+}
+
+.navbar__brand--link:focus {
+  outline: none;
+}
+
+.navbar__catalog--link {
+  background-color: #4F2CD9;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.125em;
+  padding: 9px 26px;
+  border-radius: 5px;
+  transition: background-color 0.3s linear;
+}
+
+.navbar__catalog--link:focus {
+  outline: none;
+}
+
+.navbar__catalog--link:hover {
+  background-color: #3213AC;
+}
+
+.navbar__catalog--link:active {
+  background-color: #240C86;
+  transition: background-color 0s linear;
+}
+
+.navbar__burger--icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  fill: #FFFFFF;
+  margin-right: 7px;
+}
+
+.contacts__adress {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-style: normal;
+}
+
+.contacts__phone {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: #000000;
+  transition: color 0.3s linear;
+}
+
+.contacts__phone:focus {
+  outline: none;
+}
+
+.contacts__phone:hover {
+  color: #240C86;
+}
+
+.contacts__phone:active {
+  color: #000000;
+  transition: 0s linear;
+}

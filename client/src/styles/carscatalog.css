@@ -1,0 +1,7 @@
+.cars__catalog {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 73px;
+}

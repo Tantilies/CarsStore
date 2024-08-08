@@ -1,0 +1,20 @@
+.bucket__wrapper {
+  padding-top: 70px;
+  padding-bottom: 130px;
+}
+
+.bucket__title {
+  margin: 0;
+  font-weight: 700;
+  line-height: 3.625rem;
+  font-size: 3rem;
+  color: #000000;
+  padding: 46px 0  26px;
+  border-bottom:  1px solid #D9D9D9;
+  margin-bottom: 63px;
+}
+
+.bucket__list {
+  margin: 0;
+  padding: 0;
+}

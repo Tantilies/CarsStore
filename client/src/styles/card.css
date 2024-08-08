@@ -1,0 +1,159 @@
+.card {
+  max-width: 445px;
+  position: relative;
+}
+
+.card__img {
+  height: 310px;
+  max-width: 445px;
+  background: no-repeat;
+  background-size: contain;
+  margin-bottom: 22px;
+  border: 1px solid #D9D9D9;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card__img--notavailabel {
+  opacity: 0.4;
+}
+
+.card__description--name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.card__description--year {
+  color: #595959;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  padding-right: 11px;
+}
+
+.card__description--color {
+  color: #595959;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.card__description--price {
+  margin-top: 12px;
+  margin-bottom: 19px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+
+.card__options {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.card__button {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  background-color: #4F2CD9;
+  border: none;
+  padding: 19px 102px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+.card__button:focus {
+  outline: none;
+}
+
+.card__button:hover {
+  background-color: #3213AC;
+}
+
+.card__button:active {
+  background-color: #240C86;
+}
+
+.card__button--notavailabel {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  background-color: #D9D9D9;
+  color: #000;
+  border: none;
+  padding: 19px 99px;
+  border-radius: 5px;
+  pointer-events: none;
+  cursor: default;
+}
+
+.card__options--favorite {
+  width: 77px;
+  height: 56px;
+  padding: 16px 25px;
+  cursor: pointer;
+  transition: fill 0.2s linear;
+}
+
+.card__options--favorite:hover {
+  fill: #4F2CD9;
+}
+
+.card__options--favorite:active {
+  fill: #3213AC;
+  transition: none;
+}
+
+.favorite__added {
+  width: 77px;
+  height: 56px;
+  padding: 16px 25px;
+  cursor: pointer;
+  fill: #4F2CD9;
+  transition: fill 0.2s linear;
+}
+
+.favorite__added:hover {
+  fill: #6444e6;
+}
+
+.favorite__added:active {
+  transition: none;
+  fill: #240C86;
+}
+
+.favorite--notavailabel {
+  width: 77px;
+  height: 56px;
+  padding: 16px 25px;
+  cursor: default;
+  fill: #D9D9D9;
+  pointer-events: none;
+}
+
+.card__notavailabel--text {
+  margin: 0;
+  position: absolute;
+  top: 125px;
+  left: 104px;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  border-radius: 15px;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 16px 34px;
+}
+
+.card__notavailabel--invisible {
+  display: none;
+}

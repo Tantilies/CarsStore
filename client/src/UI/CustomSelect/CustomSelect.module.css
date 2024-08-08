@@ -1,0 +1,61 @@
+.customselect__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.customselect__select {
+  cursor: pointer;
+  color: #262626;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.125rem;
+}
+
+.optionslist__wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  display: none;
+}
+
+.customselect__optionslist {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  background-color: #FFFFFF;
+  list-style: none;
+  width: 204px;
+  border: 1px solid #000;
+  padding: 0;
+  display: none;
+  z-index: 11;
+}
+
+.active {
+  display: block;
+}
+
+.customselect__option {
+  padding: 3px 0 3px 4px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #262626;
+  cursor: pointer;
+}
+
+.customselect__option:hover {
+  background-color: #1E8FFF;
+  color: #FFFFFF;
+}
+
+.customselect__icon {
+  width: 17px;
+  height: 16px;
+  margin-right: 10px;
+}

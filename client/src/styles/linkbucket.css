@@ -1,0 +1,54 @@
+.navbar__bucket--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: #000000;
+  transition: color  0.3s linear;
+}
+
+.navbar__bucket--link:focus {
+  outline: none;
+}
+
+.navbar__bucket--link:hover {
+  color: #3213AC;
+}
+
+.navbar__bucket--link:active {
+  color: #240C86;
+  transition: color 0s linear;
+}
+
+.navbar__bucket--icon {
+  display: inline-block;
+  width: 27px;
+  height: 24px;
+  margin-right: 12px;
+  transition: fill 0.3s linear;
+}
+
+.navbar__bucket--link:hover .navbar__bucket--icon {
+  fill: #3213AC
+}
+
+.navbar__bucket--link:active .navbar__bucket--icon {
+  fill: #240C86;
+  transition: fill 0s linear;
+}
+
+.bucket__icon--added {
+  display: inline-block;
+  width: 27px;
+  height: 24px;
+  margin-right: 12px;
+  transition: fill 0.3s linear;
+  fill: #4F2CD9;
+}
+
+.navbar__bucket--link:active .bucket__icon--added {
+  fill: #240C86;
+  transition: fill 0s linear;
+}
